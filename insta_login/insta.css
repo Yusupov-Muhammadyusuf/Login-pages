@@ -1,0 +1,177 @@
+body {
+    display: grid;
+    justify-content: center;
+    margin-top: 15px;
+    font-family: 'Roboto';
+}
+
+.container {
+    width: 400px;
+    height: 470px;
+    border: 1px solid lightgrey;
+    margin-left: 300px;
+}
+
+.logo_name {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.register {
+    margin-top: 45px;
+    margin-left: 50px;
+}
+
+input {
+    display: block;
+    width: 280px;
+    padding: 14px;
+    background-color: rgba(0, 0, 0, 0.021);
+    border: 1.5px solid rgba(0, 0, 0, 0.208);
+    border-radius: 5px;
+}
+
+.log_btn {
+    width: 310px;
+    padding: 8px;
+    background-color: #7890fc;
+    color: white;
+    border: 1px solid #879cfb;
+    border-radius: 10px;
+    font-size: 17px;
+    margin-top: 15px;
+}
+
+#password {
+    margin-top: 10px;
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 60px;
+    width: 100%;
+}
+  
+.line_left,
+.line_right {
+    width: 120px;
+    height: 0.5px;
+    background-color: #dbdbdb;
+}
+  
+.or {
+    margin: 15px;
+    color: #8e8e8e;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.main_reg {
+    text-align: center;
+    color: #1877f2;
+}
+
+.direct {
+    cursor: pointer;
+}
+
+.bi-facebook {
+    margin-right: 6px;
+    font-size: 20px;
+}
+
+.fp {
+    cursor: pointer;
+    color: black;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.fp:hover {
+    text-decoration: underline;
+}
+
+.si_box {
+    width: 400px;
+    height: 80px;
+    text-align: center;
+    border: 1px solid lightgrey;
+    margin-top: 10px;
+    margin-left: 300px;
+}
+
+.si_box h4 {
+    margin-top: 30px;
+    font-weight: normal;
+}
+
+.si_box span {
+    color: #1877f2;
+}
+
+.hd {
+    margin-top: 30px;
+    margin-left: 460px;
+    font-weight: normal;
+}
+
+.help {
+    display: flex;
+    gap: 10px;
+}
+
+.x1vqgdyp {
+    width: 165px;
+    height: 50px;
+    margin-left: 350px;
+}
+
+.x2vqgdyp {
+    height: 50px;
+}
+
+.footer_item {
+    display: inline;
+    padding: 7px;
+}
+
+a {
+    color: rgba(0, 0, 0, 0.508);
+    font-size: 13px;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.list {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.list select {
+    border: 1px solid;
+    color: rgba(0, 0, 0, 0.508);
+}
+
+span {
+    color: rgb(0, 0, 0, 0.508);
+}
+
+select {
+    margin-right: 15px;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        margin-right: 200px;
+    }
+
+    .list {
+        margin-left: 30px;
+    }
+}
